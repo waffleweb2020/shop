@@ -71,5 +71,7 @@
     ],
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
-  }
+  },
+  "copy-assets": "cp -rv src/asset dist/src/asset",
+  "build": "rimraf dist && tsc -p tsconfig.build.json && npm run copy-assets"
 }
