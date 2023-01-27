@@ -18,7 +18,7 @@ import {ProductModel} from "./product/product.model";
       host: '45.90.33.54',
       port: 5432,
       username: 'postgres',
-      password: 'qwerty',
+      password: 'Vannabluerey8!',
       database: 'shop',
       models: [UserModel, Order_itemModel, OrderModel, ProductModel],
       autoLoadModels: true,
