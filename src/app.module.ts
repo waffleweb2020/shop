@@ -15,10 +15,10 @@ import {ProductModel} from "./product/product.model";
   imports: [
     SequelizeModule.forRoot({
       dialect: 'postgres',
-      host: '45.90.33.54',
-      port: 3000,
+      host: 'postgres',
+      port: 5432,
       username: 'postgres',
-      password: 'Vannabluerey8!',
+      password: 'qwerty',
       database: 'shop',
       models: [UserModel, Order_itemModel, OrderModel, ProductModel],
       autoLoadModels: true,
