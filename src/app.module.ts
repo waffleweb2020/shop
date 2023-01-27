@@ -15,7 +15,7 @@ import {ProductModel} from "./product/product.model";
   imports: [
     SequelizeModule.forRoot({
       dialect: 'postgres',
-      host: 'localhost',
+      host: 45.90.33.54,
       port: 5432,
       username: 'postgres',
       password: 'qwerty',
